@@ -965,7 +965,6 @@ footer button {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        background: #4bcaff;
         gap: 10px;
     }
 
@@ -1186,7 +1185,7 @@ footer button {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr) 5px;
-        background: #4bcaff;
+     
         gap: 10px;
     }
 
