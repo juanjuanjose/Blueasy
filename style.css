@@ -92,35 +92,52 @@ nav div a button {
 
 
 .section1 {
-    background-color: #a55d73;
+  
     display: flex;
-    height: 20rem;
-    justify-content: space-between;
-    gap: 25px;
-    margin:30px;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
     
 }
 
 .section1 div {
-    height: 100%;
-    width: 100%;
-    display: flex;
+    background-color: #E090AA;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 17rem;
+    height: 20rem;
+    margin: 2rem;
+    border-radius: 5px;
+    border: double 5px;
+    border-color: white;
+    color: white;
+    opacity: 70%;
+    
+}
+
+.section1 div:hover {
+    width: 18rem;
+    height: 21rem;
+   
 }
 
 .section1 div img {
-    width: 41px;
-    height: 41px;
+    width: 51px;
+    height: 51px;
 }
 
 .section1 div h2 {
-    color: #def5ff;
+    padding-top: 30px;
+    color: #2b2a2a;
 }
 
 .section1 p {
-    color: #c0ecff;
+    padding-top: 30px;
+    color: #000000;
 }
 
 .div1-a {
@@ -335,8 +352,7 @@ hr {
 
 
 .section5 {
-    background: url(../images/bg_whoIs.png);
-    background-size: cover;
+ 
     background-repeat: no-repeat;
     height: 500px;
     display: grid;
