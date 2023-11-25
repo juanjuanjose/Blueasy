@@ -175,6 +175,11 @@ nav div a button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+ 
+}
+.div1-b p {
+    font-size: 30px;
+
 }
 
 hr {
