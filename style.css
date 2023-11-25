@@ -607,7 +607,6 @@ footer button {
    
     .section1 {
         padding: 15px;
-        background-color: #4bcaff;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -1253,7 +1252,7 @@ footer button {
     .form4 input {
         width: 260px;
         height: 40px;
-        background: #4bcaff;
+    
         border: none;
     }
 
