@@ -60,20 +60,16 @@ nav div a button {
 
 
 .textG {
-    width: 100%;
     height: 80%;
-    display: flex;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    align-items: center;
-    justify-content: center;
     background-color: black;
     opacity: 90%;
 }
 
 .list-home :hover{
-    background-color: #404041;
+    background-color: #e49cb2;
 }
 
 
@@ -90,14 +86,9 @@ nav div a button {
     grid-column: 2/6;
     grid-row: 3;
     align-self: flex-end;
-    width: 38%;
+    text-align: center;
 }
 
-.text2 {
-    grid-column: 2/6;
-    grid-row: 4;
-    width: 55%;
-}
 
 
 .section1 {
@@ -175,7 +166,7 @@ nav div a button {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 120px repeat(2, 1fr) 34px;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color:#e49cb2c0;
     color:white;
 }
 
@@ -211,7 +202,18 @@ hr {
     gap: 15px;
     align-items: center;
     justify-content: flex-end;
+
 }
+
+.div2-a-b a {
+ 
+    border-radius:28px;
+	border:1px solid #ffffff;
+}
+.div2-a-b a b{
+    color: white;
+}
+
 
 .div2-2 {
     grid-column: 1/13;
@@ -287,6 +289,7 @@ hr {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
     height: 500px;
+ 
 }
 
 .title {
@@ -306,22 +309,32 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 20px;
+ 
+    
 }
 
 .div2-c {
     grid-area: 2/6/7/12;
     align-self: center;
     justify-self: center;
+    
 }
 
 .div1-c button {
     background: transparent;
     color: #ebeaea;
     border: solid #e9e7e7;
-    width: 25%;
+    width: 5rem;
     height: 38px;
     font-size: 12px;
-    padding: 5px;
+
+}
+
+.div1-c button :hover{
+    cursor: pointer;
+    color: #ebeaea;
+  
+    
 }
 
 
@@ -449,35 +462,48 @@ hr {
 }
 
 .section7 {
-    background-image: url(../images/bg_contact.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 
-.form {
+.formularios{
+    background-color: white;
+    background-image: url(images/fondopared.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.form .formularios{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr) 160px 1fr;
+    gap: 20px;
 }
 
 .contact {
     grid-column: 2;
     grid-row: 2;
     align-self: center;
-    color: #e5e8ea;
+    color: #000000;
+    font-size: 25px;
 }
 
 .form input {
     width: 290px;
     height: 30px;
-    border: 1px solid #e5e7e8;
+    border: 1px solid #000000;
     background: none;
-    color: #e5e8ea;
+    color: #000000;
 }
 
 .form label {
-    color: #e8eaeb;
+    color: #000000;
+ 
 }
 
 .form1 {
@@ -496,7 +522,7 @@ hr {
 }
 
 .form3 textarea {
-    border: 1px solid #e5e7e8;
+    border: 1px solid #000000;
     background: none;
     width: 80%;
     height: 120px;
@@ -505,30 +531,22 @@ hr {
 .form4 {
     grid-column: 2;
     grid-row: 6;
+
 }
 
 .form4 input {
     width: 260px;
     height: 40px;
-    background: #4bcaff;
+    background: #000000;
     border: none;
+    color: white;
+    opacity: 70%;
 }
 
-.text {
-    width: 60%;
-    margin-left: 120px;
-    grid-column: 3/6;
-    grid-row: 3/5;
-    color: #e5e7e8;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 10px;
-}
 
 
 .palo {
-    color: #4f5d65;
+    color: #000000;
 }
 
 footer {
@@ -536,14 +554,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background: #353f47;
+    background: #000000;
 }
 
-footer button {
-    border: none;
-    color: #4f5d65;
-    background: #353f47;
-}
 
 .footer1 {
     display: flex;
@@ -551,7 +564,7 @@ footer button {
 }
 
 .footer2 p {
-    color: #4f5d65;
+    color: #000000;
 }
 
 
