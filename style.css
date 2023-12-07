@@ -20,6 +20,7 @@ header {
     width: 100%;
     top: 0;
 
+
 }
 
 nav {
@@ -35,9 +36,11 @@ nav h1 {
     grid-row: 3;
     display: flex;
     color: #fafafa;
+    
 }
 
-nav h1 span {
+
+nav span {
     color: #a55d73;
 }
 
@@ -65,11 +68,17 @@ nav div a button {
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-content: center;
+    background-color: black;
+    opacity: 90%;
 }
+
+.list-home :hover{
+    background-color: #404041;
+}
+
 
 .textG div {
     color: #dcdcdd;
-    background: rgba(61, 72, 79, 0.87);
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -97,7 +106,7 @@ nav div a button {
     flex-direction:row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    padding:15rem 0 15rem ;
     
 }
 
@@ -126,13 +135,13 @@ nav div a button {
 }
 
 .section1 div img {
-    width: 51px;
-    height: 51px;
+    width: 77px;
+    
 }
 
 .section1 div h2 {
     padding-top: 30px;
-    color: #2b2a2a;
+    color: #000000;
 }
 
 .section1 p {
@@ -166,6 +175,8 @@ nav div a button {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 120px repeat(2, 1fr) 34px;
     height: 100%;
+    background-color: rgb(0, 0, 0);
+    color:white;
 }
 
 .div1-b {
@@ -212,7 +223,7 @@ hr {
     width: 267px;
     height: 267px;
     margin: 5px;
-    filter: grayscale(100%);
+
 }
 
 .img1 {
@@ -256,22 +267,22 @@ hr {
 }
 
 .butt {
-    color: #6f7a81;
+    color: #000000;
     background: transparent;
     border: none;
 }
 
 .portafolio {
-    color: #91999e;
+    color: #000000;
 }
 
 hr {
-    color: #647077;
+    color: #171b1d;
 }
 
 /* section 3 */
 .section3 {
-    background: #515f67;
+    background: #181717;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
@@ -305,8 +316,8 @@ hr {
 
 .div1-c button {
     background: transparent;
-    color: #2e373b;
-    border: solid #48555c;
+    color: #ebeaea;
+    border: solid #e9e7e7;
     width: 25%;
     height: 38px;
     font-size: 12px;
@@ -318,7 +329,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    background: #a55d73 ;
+    background: #000000 ;
     gap: 10px;
 }
 
