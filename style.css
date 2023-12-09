@@ -160,7 +160,7 @@ nav div a button {
     grid-row: 3/8;
 }
 
-/* section 2 */
+
 .section2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -288,12 +288,20 @@ hr {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    height: 500px;
-    background-image: url(images/nubes.jpg); 
+
+    background-image: url(images/flores.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter:grayscale();
+}
+
+.section3 .section6{
+    background-image: url(images/flores.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 
 
 }
@@ -344,15 +352,6 @@ hr {
 }
 
 
-.section4 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    background: #000000 ;
-    gap: 10px;
-
-  
-}
 
 .twitter {
     grid-area: 2/2;
@@ -389,7 +388,6 @@ hr {
 
 
 .section5 {
- 
     background-repeat: no-repeat;
     height: 500px;
     display: grid;
